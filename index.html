@@ -7,16 +7,22 @@
     color: red;
     text-align: center;
     font-size: 2rem;
+    border-style: groove;
+    background-color: aqua;
     }
     h1  {
       text-align: center;
       font-size: 3rem;
+      border-style: inset ;
+      background-color: darkorange;
+    }
+
+    body {
+      background-color:slategray;
+
     }
     
-   
-
-
-  </style>
+   </style>
 
 </head>
 <body>
@@ -25,5 +31,24 @@
   <p>How old are you?</p>
   <p>Which city are you from?</p>
   <p>What is your favorite food?</p>
+  <script>
+    let username = prompt('What is your name?');
+alert('Hello ' + username + '! we are going to play a game.');
+
+let number = prompt('How old are you?');
+alert('That is a great age');
+
+let city = prompt('Which city are you from?')
+alert('That is awesome Mario I am from there too !');
+
+
+let food = prompt('What is your favorite food?')
+alert(food + ' is the food of the gods!');
+
+alert('Hello' +  ' Mario'  + ' who is 42' + ' from San Francisco' 
++ ' and loves pizza!');
+
+
+  </script>
 </body>
 </html>
